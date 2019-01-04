@@ -1,5 +1,26 @@
 # Change Log
 
+## [Swiper 4.4.6](https://github.com/nolimits4web/swiper/compare/v4.4.5...v4.4.6) - Released on December 19, 2018
+  * Core
+    * Fixed issue with wrong slide size calculation in some cases
+
+## [Swiper 4.4.5](https://github.com/nolimits4web/swiper/compare/v4.4.2...v4.4.5) - Released on December 14, 2018
+  * Core
+    * New `observeSlideChildren` parameter to enable auto update on slide children update
+    * Fixed issue when slide padding was not considered when calculating sizes
+    * Fixed issue with wrong touch support detection on Windows Chrome
+    * Fixed some issues with wrong slides grid calculation in multi row mode
+  * Zoom
+    * Now it emits `zoomChange` event with `scale`, `imageEl` and `slideEl` arguments
+  * Minor fixes
+
+## [Swiper 4.4.2](https://github.com/nolimits4web/swiper/compare/v4.4.1...v4.4.2) - Released on November 1, 2018
+  * New `touchStartForcePreventDefault` parameter to force touch start event prevent default
+  * Breakpoints fix when breakpoint keys are strings
+  * Fixed issue when draggable scrollbar may not work on desktop Safari
+  * Fixed issue with wrong sort of Virtual Slides
+  * Minor fixes
+
 ## [Swiper 4.4.1](https://github.com/nolimits4web/swiper/compare/v4.4.0...v4.4.1) - Released on September 14, 2018
   * Fixed issue with preventing touchstart event
 
