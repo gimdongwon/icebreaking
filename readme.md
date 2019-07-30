@@ -2,6 +2,8 @@
 
 ## [아이스 브레이킹](https://icebreaking.netlify.com)
 
+![QRcode](./icebreaking_QR.png)
+
 ![icebreaking](preview.png)
 
 첫 만남이 어색할 때!
